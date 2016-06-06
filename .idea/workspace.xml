@@ -297,12 +297,20 @@
       <workItem from="1464875068041" duration="2108000" />
       <workItem from="1464962555881" duration="5925000" />
       <workItem from="1465096412433" duration="3018000" />
-      <workItem from="1465220561832" duration="5471000" />
+      <workItem from="1465220561832" duration="5491000" />
     </task>
+    <task id="LOCAL-00001" summary="Second commit">
+      <created>1465230865425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465230865425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38158000" />
+    <option name="totallyTimeSpent" value="38178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1556" height="799" extended-state="0" />
@@ -337,6 +345,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
