@@ -4,15 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c071dbf-c189-44c5-a8a0-4db5273217c0" name="Default" comment="This is the final golfscore card I am handing in.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GetCourseInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GetCourseInfo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GoogleMapAPIkey.js" afterPath="" />
+    <list default="true" id="3c071dbf-c189-44c5-a8a0-4db5273217c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/golfproject.css" afterPath="$PROJECT_DIR$/golfproject.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/golfproject.html" afterPath="$PROJECT_DIR$/golfproject.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/golfproject.js" afterPath="$PROJECT_DIR$/golfproject.js" />
     </list>
     <ignored path="golfcard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="golfproject.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="golfproject.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/golfproject.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
@@ -62,6 +56,13 @@
               <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo1.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images/logo1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -140,16 +141,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="golfcard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="golfcard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="golfcard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -275,7 +266,7 @@
       <workItem from="1465479492619" duration="1186000" />
       <workItem from="1465529258020" duration="1615000" />
       <workItem from="1465566246557" duration="6720000" />
-      <workItem from="1465654921363" duration="38844000" />
+      <workItem from="1465654921363" duration="39880000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1465230865425</created>
@@ -298,17 +289,24 @@
       <option name="project" value="LOCAL" />
       <updated>1465279069159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="This is the final golfscore card I am handing in.">
+      <created>1465764945357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465764945357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104753000" />
+    <option name="totallyTimeSpent" value="105789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="682" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16951673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16951673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280142" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -677,11 +675,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/logo1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/golfproject.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
@@ -706,6 +699,11 @@
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/logo1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
