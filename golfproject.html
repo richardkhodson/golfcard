@@ -1,58 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Golf Score Card</title>
+    <title>Golf Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Score Card</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="golfproject.js"></script>
-    <script src="GetCourseInfo.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link type="text/css" href="golfproject.css" rel="stylesheet">
 </head>
-<body onload="buildcard()">
+
+<body onload="loadMe()">
 
 <div id="overlaycontainer">
-  <div id="contentdiv">
-        <select id="selectCourse" onChange=" setCourseInfo(this.value)"></select>
-        <select id="selectTeebox" onChange=" setCourseInfo(this.value)"></select>
-         <div id="golfbanner">
+    <div id="contentdiv">
+        <!-- selects were here -->
+        <div id="golfbanner">
+            <div class="toolbar">
+                <div id="map"></div>
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQM432qoemfb8-YtxfqfCigW7iKHz8FzA&callback=initMap"
+                        async defer></script>
+                <select class="btn btn-primary" id="selectCourse" onChange=" getCourseInfo(this.value)"></select>
+                <select class="btn btn-primary" id="selectTeebox" onChange=" setCourseInfo(this.value)"></select>
+                <a class="btn btn-primary" id="selectAdd" href="javascript: addplayer()" style="font-size: 16px">Add
+                    Player</a>
+            </div>
+            <div class="blackbar">
+                <div class="barleft">
+                    <div id="golflogo"></div>
+                    <div id="logotext">Golf Score Card</div>
 
-             This is the blackbar div.
-             <div class="blackbar">
-                 <!-- This is the barleft div
-                  <div class="barleft">
-                      <div id="golflogo"></div>
-                      <div id="logotext">Golf Score Card</div>
-                  </div> -->
+                </div>
 
-                   <!--This is the barright div.
-                  <div class="barright">
+                <div class="barright">
 
-                   <!--   This is the tee time countdown in upper right hand of golfbar.
-                   <div id="countdown"></div> -->
+                    <div id="countdown"></div>
 
-                     <!-- This is the weather symbol like a sun or cloud.
-                     <img id="weatherimage" src="#"/> -->
+                </div>
 
-                      <!-- This the weather description, such as clear sky or sunny.
-                      <div id="weather"></div> -->
+            </div>
+            <div id="golfcourselabel">Select a Course above</div>
 
-             </div>
-             </div>
-                    <div id="golfcourselabel">Sun River Golf Club</div>
-         </div>
+            <div class="rightwidget">
 
-       <!-- This is the scorecard body div. -->
-       <div id="scorecard">
+                <div id="topweather">
+                    <span id="currenttemp">72</span><span class="degsign">&deg;</span>
+                </div>
+                <img id="weatherimage" src="http://openweathermap.org/img/w/03d.png"/>
+                <div id="currentconditions">partly cloudy</div>
 
-           <div id="leftcard"></div>
-           <div id="rightcard"></div>
+            </div>
+        </div>
+        <div id="scorecard">
+
+            <!-- This was where the toolbar was located. -->
+            <div id="leftcard"></div>
+            <div id="rightcard"></div>
 
 
-       </div>
-  </div>
+        </div>
+    </div>
 </div>
-<div id="container"></div>
 
+<div id="container"></div>
 
 
 </body>
